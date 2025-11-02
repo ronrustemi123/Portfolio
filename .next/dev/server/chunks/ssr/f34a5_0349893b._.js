@@ -15962,6 +15962,7 @@ const tree = [
         ]
     },
     {
+        metadata: {},
         "layout": [
             __TURBOPACK__layout__$23$0__,
             "[project]/Desktop/Portfolio/app/layout.tsx"

@@ -93,7 +93,7 @@ const portfolioData = {
         name: "Ron Rustemi",
         title: "Computer Science Student",
         location: "Tetovo, North Macedonia",
-        about: "Computer Science student at South East European University specializing in full-stack web development. Built projects using Next.js, TypeScript, TailwindCSS, and React.js. Passionate about creating beautiful and responsive websites. Experienced in front-end and back-end technologies including Node.js, Express.js, PostgreSQL, and MongoDB. Skilled in teamwork, fast learning, and project leadership."
+        about: "I'm a full-stack JavaScript developer from Tetovo, North Macedonia, currently pursuing a Computer Science degree at South East European University. I specialize in building modern web applications using React, Next.js, and TypeScript for the front-end, and Node.js with Express.js for the back-end. My expertise includes database management with both SQL (PostgreSQL, Oracle) and NoSQL (MongoDB) databases. I've developed responsive, scalable web applications including eCommerce platforms, cryptocurrency tracking systems like TokenTrace, and various open-source projects. Passionate about creating beautiful, performant user interfaces with Tailwind CSS and delivering end-to-end full-stack solutions."
     },
     contact: {
         github: "https://github.com/ronrustemi123"
@@ -640,10 +640,11 @@ function ProjectsSection() {
                                                 className: "inline-flex items-center justify-center h-8 w-8 rounded-md bg-white border border-card-border",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                     src: logoPath,
-                                                    alt: `${tech.name} logo`,
+                                                    alt: `${tech.name} technology logo used in ${project.title} project`,
                                                     width: 24,
                                                     height: 24,
-                                                    className: "h-6 w-6 object-contain"
+                                                    className: "h-6 w-6 object-contain",
+                                                    loading: "lazy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/Portfolio/components/sections/ProjectsSection.tsx",
                                                     lineNumber: 49,
@@ -680,30 +681,30 @@ function ProjectsSection() {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/Portfolio/components/sections/ProjectsSection.tsx",
-                                                    lineNumber: 70,
+                                                    lineNumber: 71,
                                                     columnNumber: 23
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/Portfolio/components/sections/ProjectsSection.tsx",
-                                                    lineNumber: 72,
+                                                    lineNumber: 73,
                                                     columnNumber: 23
                                                 }, this),
                                                 link.label
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/Portfolio/components/sections/ProjectsSection.tsx",
-                                            lineNumber: 64,
+                                            lineNumber: 65,
                                             columnNumber: 19
                                         }, this)
                                     }, linkIndex, false, {
                                         fileName: "[project]/Desktop/Portfolio/components/sections/ProjectsSection.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 64,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Portfolio/components/sections/ProjectsSection.tsx",
-                                lineNumber: 61,
+                                lineNumber: 62,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -776,10 +777,11 @@ function TechnicalSkillsSection() {
                                 className: "mb-2 h-8 w-8 flex items-center justify-center",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                     src: logoPath,
-                                    alt: `${skill.name} logo`,
+                                    alt: `${skill.name} technology logo for ${skill.name} development`,
                                     width: 32,
                                     height: 32,
-                                    className: "h-8 w-8 object-contain"
+                                    className: "h-8 w-8 object-contain",
+                                    loading: "lazy"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Portfolio/components/sections/TechnicalSkillsSection.tsx",
                                     lineNumber: 35,
@@ -795,7 +797,7 @@ function TechnicalSkillsSection() {
                                 children: skill.name
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Portfolio/components/sections/TechnicalSkillsSection.tsx",
-                                lineNumber: 44,
+                                lineNumber: 45,
                                 columnNumber: 15
                             }, this)
                         ]
@@ -840,52 +842,54 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$comp
 ;
 ;
 function Home() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        className: "min-h-screen bg-background",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto max-w-[968px]",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$HeroSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["HeroSection"], {}, void 0, false, {
-                    fileName: "[project]/Desktop/Portfolio/app/page.tsx",
-                    lineNumber: 12,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$AboutSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AboutSection"], {}, void 0, false, {
-                    fileName: "[project]/Desktop/Portfolio/app/page.tsx",
-                    lineNumber: 13,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$WorkExperienceSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["WorkExperienceSection"], {}, void 0, false, {
-                    fileName: "[project]/Desktop/Portfolio/app/page.tsx",
-                    lineNumber: 14,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$EducationSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["EducationSection"], {}, void 0, false, {
-                    fileName: "[project]/Desktop/Portfolio/app/page.tsx",
-                    lineNumber: 15,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$ProjectsSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ProjectsSection"], {}, void 0, false, {
-                    fileName: "[project]/Desktop/Portfolio/app/page.tsx",
-                    lineNumber: 16,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$TechnicalSkillsSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TechnicalSkillsSection"], {}, void 0, false, {
-                    fileName: "[project]/Desktop/Portfolio/app/page.tsx",
-                    lineNumber: 17,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+            className: "min-h-screen bg-background",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mx-auto max-w-[968px]",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$HeroSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["HeroSection"], {}, void 0, false, {
+                        fileName: "[project]/Desktop/Portfolio/app/page.tsx",
+                        lineNumber: 13,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$AboutSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AboutSection"], {}, void 0, false, {
+                        fileName: "[project]/Desktop/Portfolio/app/page.tsx",
+                        lineNumber: 14,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$WorkExperienceSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["WorkExperienceSection"], {}, void 0, false, {
+                        fileName: "[project]/Desktop/Portfolio/app/page.tsx",
+                        lineNumber: 15,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$EducationSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["EducationSection"], {}, void 0, false, {
+                        fileName: "[project]/Desktop/Portfolio/app/page.tsx",
+                        lineNumber: 16,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$ProjectsSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ProjectsSection"], {}, void 0, false, {
+                        fileName: "[project]/Desktop/Portfolio/app/page.tsx",
+                        lineNumber: 17,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$sections$2f$TechnicalSkillsSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TechnicalSkillsSection"], {}, void 0, false, {
+                        fileName: "[project]/Desktop/Portfolio/app/page.tsx",
+                        lineNumber: 18,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Desktop/Portfolio/app/page.tsx",
+                lineNumber: 12,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
             fileName: "[project]/Desktop/Portfolio/app/page.tsx",
             lineNumber: 11,
             columnNumber: 7
         }, this)
-    }, void 0, false, {
-        fileName: "[project]/Desktop/Portfolio/app/page.tsx",
-        lineNumber: 10,
-        columnNumber: 5
-    }, this);
+    }, void 0, false);
 }
 }),
 "[project]/Desktop/Portfolio/app/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {

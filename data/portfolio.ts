@@ -6,7 +6,7 @@ export const portfolioData: PortfolioData = {
     title: "Computer Science Student",
     location: "Tetovo, North Macedonia",
     about:
-      "Computer Science student at South East European University specializing in full-stack web development. Built projects using Next.js, TypeScript, TailwindCSS, and React.js. Passionate about creating beautiful and responsive websites. Experienced in front-end and back-end technologies including Node.js, Express.js, PostgreSQL, and MongoDB. Skilled in teamwork, fast learning, and project leadership.",
+      "I'm a full-stack JavaScript developer from Tetovo, North Macedonia, currently pursuing a Computer Science degree at South East European University. I specialize in building modern web applications using React, Next.js, and TypeScript for the front-end, and Node.js with Express.js for the back-end. My expertise includes database management with both SQL (PostgreSQL, Oracle) and NoSQL (MongoDB) databases. I've developed responsive, scalable web applications including eCommerce platforms, cryptocurrency tracking systems like TokenTrace, and various open-source projects. Passionate about creating beautiful, performant user interfaces with Tailwind CSS and delivering end-to-end full-stack solutions.",
   },
   contact: {
     github: "https://github.com/ronrustemi123",

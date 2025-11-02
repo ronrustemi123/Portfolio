@@ -48,10 +48,11 @@ export function ProjectsSection() {
                       >
                         <Image
                           src={logoPath}
-                          alt={`${tech.name} logo`}
+                          alt={`${tech.name} technology logo used in ${project.title} project`}
                           width={24}
                           height={24}
                           className="h-6 w-6 object-contain"
+                          loading="lazy"
                         />
                       </div>
                     );

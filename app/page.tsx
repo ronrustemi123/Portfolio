@@ -7,16 +7,18 @@ import { TechnicalSkillsSection } from "@/components/sections/TechnicalSkillsSec
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
-      <div className="mx-auto max-w-[968px]">
-        <HeroSection />
-        <AboutSection />
-        <WorkExperienceSection />
-        <EducationSection />
-        <ProjectsSection />
-        <TechnicalSkillsSection />
-      </div>
-    </main>
+    <>
+      <main className="min-h-screen bg-background">
+        <div className="mx-auto max-w-[968px]">
+          <HeroSection />
+          <AboutSection />
+          <WorkExperienceSection />
+          <EducationSection />
+          <ProjectsSection />
+          <TechnicalSkillsSection />
+        </div>
+      </main>
+    </>
   );
 }
 

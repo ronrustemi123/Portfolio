@@ -39,10 +39,11 @@ function EducationItem({ edu, index }: { edu: typeof portfolioData.education[0],
               <div className="flex-shrink-0">
                 <Image
                   src={edu.logo}
-                  alt={`${edu.institution} logo`}
+                  alt={`${edu.institution} educational institution logo - ${edu.degree || edu.program || 'Education program'}`}
                   width={64}
                   height={64}
                   className="h-16 w-16 object-contain"
+                  loading="lazy"
                 />
               </div>
             )}

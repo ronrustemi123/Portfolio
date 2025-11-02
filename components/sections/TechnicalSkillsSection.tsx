@@ -34,10 +34,11 @@ export function TechnicalSkillsSection() {
                 <div className="mb-2 h-8 w-8 flex items-center justify-center">
                   <Image
                     src={logoPath}
-                    alt={`${skill.name} logo`}
+                    alt={`${skill.name} technology logo for ${skill.name} development`}
                     width={32}
                     height={32}
                     className="h-8 w-8 object-contain"
+                    loading="lazy"
                   />
                 </div>
               )}

@@ -17,7 +17,7 @@ const portfolioData = {
         name: "Ron Rustemi",
         title: "Computer Science Student",
         location: "Tetovo, North Macedonia",
-        about: "Computer Science student at South East European University specializing in full-stack web development. Built projects using Next.js, TypeScript, TailwindCSS, and React.js. Passionate about creating beautiful and responsive websites. Experienced in front-end and back-end technologies including Node.js, Express.js, PostgreSQL, and MongoDB. Skilled in teamwork, fast learning, and project leadership."
+        about: "I'm a full-stack JavaScript developer from Tetovo, North Macedonia, currently pursuing a Computer Science degree at South East European University. I specialize in building modern web applications using React, Next.js, and TypeScript for the front-end, and Node.js with Express.js for the back-end. My expertise includes database management with both SQL (PostgreSQL, Oracle) and NoSQL (MongoDB) databases. I've developed responsive, scalable web applications including eCommerce platforms, cryptocurrency tracking systems like TokenTrace, and various open-source projects. Passionate about creating beautiful, performant user interfaces with Tailwind CSS and delivering end-to-end full-stack solutions."
     },
     contact: {
         github: "https://github.com/ronrustemi123"
@@ -265,10 +265,11 @@ function WorkExperienceItem({ experience, index }) {
                             className: "flex-shrink-0",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: experience.logo,
-                                alt: `${experience.company} logo`,
+                                alt: `${experience.company} company logo - Frontend Developer position`,
                                 width: 64,
                                 height: 64,
-                                className: "h-16 w-16 object-contain"
+                                className: "h-16 w-16 object-contain",
+                                loading: "lazy"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
                                 lineNumber: 40,
@@ -294,7 +295,7 @@ function WorkExperienceItem({ experience, index }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
-                                            lineNumber: 51,
+                                            lineNumber: 52,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -304,26 +305,26 @@ function WorkExperienceItem({ experience, index }) {
                                                     className: "h-3 w-3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
-                                                    lineNumber: 55,
+                                                    lineNumber: 56,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: experience.location
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
-                                                    lineNumber: 56,
+                                                    lineNumber: 57,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 55,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 51,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -331,7 +332,7 @@ function WorkExperienceItem({ experience, index }) {
                                     children: experience.company
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 60,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -339,7 +340,7 @@ function WorkExperienceItem({ experience, index }) {
                                     children: experience.role
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 63,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -350,7 +351,7 @@ function WorkExperienceItem({ experience, index }) {
                                     children: experience.description
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
-                                    lineNumber: 65,
+                                    lineNumber: 66,
                                     columnNumber: 15
                                 }, this),
                                 experience.technologies && experience.technologies.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -361,13 +362,13 @@ function WorkExperienceItem({ experience, index }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 70,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
-                            lineNumber: 49,
+                            lineNumber: 50,
                             columnNumber: 13
                         }, this)
                     ]
@@ -380,7 +381,7 @@ function WorkExperienceItem({ experience, index }) {
                     className: "mt-8 border-card-border"
                 }, void 0, false, {
                     fileName: "[project]/Desktop/Portfolio/components/sections/WorkExperienceSection.tsx",
-                    lineNumber: 76,
+                    lineNumber: 77,
                     columnNumber: 11
                 }, this)
             ]
@@ -484,10 +485,11 @@ function EducationItem({ edu, index }) {
                             className: "flex-shrink-0",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: edu.logo,
-                                alt: `${edu.institution} logo`,
+                                alt: `${edu.institution} educational institution logo - ${edu.degree || edu.program || 'Education program'}`,
                                 width: 64,
                                 height: 64,
-                                className: "h-16 w-16 object-contain"
+                                className: "h-16 w-16 object-contain",
+                                loading: "lazy"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Portfolio/components/sections/EducationSection.tsx",
                                 lineNumber: 40,
@@ -513,7 +515,7 @@ function EducationItem({ edu, index }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/Portfolio/components/sections/EducationSection.tsx",
-                                            lineNumber: 51,
+                                            lineNumber: 52,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -523,26 +525,26 @@ function EducationItem({ edu, index }) {
                                                     className: "h-3 w-3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/Portfolio/components/sections/EducationSection.tsx",
-                                                    lineNumber: 55,
+                                                    lineNumber: 56,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: edu.location
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/Portfolio/components/sections/EducationSection.tsx",
-                                                    lineNumber: 56,
+                                                    lineNumber: 57,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/Portfolio/components/sections/EducationSection.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 55,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/Portfolio/components/sections/EducationSection.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 51,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -550,7 +552,7 @@ function EducationItem({ edu, index }) {
                                     children: edu.institution
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Portfolio/components/sections/EducationSection.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 60,
                                     columnNumber: 15
                                 }, this),
                                 (edu.degree || edu.program) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -558,7 +560,7 @@ function EducationItem({ edu, index }) {
                                     children: edu.degree || edu.program
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Portfolio/components/sections/EducationSection.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 64,
                                     columnNumber: 17
                                 }, this),
                                 edu.certificate && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -566,13 +568,13 @@ function EducationItem({ edu, index }) {
                                     children: edu.certificate
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Portfolio/components/sections/EducationSection.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 69,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/Portfolio/components/sections/EducationSection.tsx",
-                            lineNumber: 49,
+                            lineNumber: 50,
                             columnNumber: 13
                         }, this)
                     ]
@@ -585,7 +587,7 @@ function EducationItem({ edu, index }) {
                     className: "mt-8 border-card-border"
                 }, void 0, false, {
                     fileName: "[project]/Desktop/Portfolio/components/sections/EducationSection.tsx",
-                    lineNumber: 73,
+                    lineNumber: 74,
                     columnNumber: 11
                 }, this)
             ]

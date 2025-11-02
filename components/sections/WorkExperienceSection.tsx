@@ -39,10 +39,11 @@ function WorkExperienceItem({ experience, index }: { experience: typeof portfoli
               <div className="flex-shrink-0">
                 <Image
                   src={experience.logo}
-                  alt={`${experience.company} logo`}
+                  alt={`${experience.company} company logo - Frontend Developer position`}
                   width={64}
                   height={64}
                   className="h-16 w-16 object-contain"
+                  loading="lazy"
                 />
               </div>
             )}
