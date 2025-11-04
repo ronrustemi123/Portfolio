@@ -1,5 +1,6 @@
 export interface ContactInfo {
   github: string;
+  linkedin: string;
 }
 
 export interface WorkExperience {

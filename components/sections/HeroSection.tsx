@@ -1,4 +1,4 @@
-import { Mail, Github } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { portfolioData } from "@/data/portfolio";
 
@@ -31,6 +31,16 @@ export function HeroSection() {
           >
             <Github className="h-4 w-4" />
             GitHub
+          </a>
+        </Button>
+        <Button asChild>
+          <a
+            href={contact.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Linkedin className="h-4 w-4" />
+            LinkedIn
           </a>
         </Button>
       </div>

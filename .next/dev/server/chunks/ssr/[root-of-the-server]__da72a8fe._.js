@@ -20,7 +20,8 @@ const portfolioData = {
         about: "I'm a full-stack JavaScript developer from Tetovo, North Macedonia, currently pursuing a Computer Science degree at South East European University. I specialize in building modern web applications using React, Next.js, and TypeScript for the front-end, and Node.js with Express.js for the back-end. My expertise includes database management with both SQL (PostgreSQL, Oracle) and NoSQL (MongoDB) databases. I've developed responsive, scalable web applications including eCommerce platforms, cryptocurrency tracking systems like TokenTrace, and various open-source projects. Passionate about creating beautiful, performant user interfaces with Tailwind CSS and delivering end-to-end full-stack solutions."
     },
     contact: {
-        github: "https://github.com/ronrustemi123"
+        github: "https://github.com/ronrustemi123",
+        linkedin: "https://www.linkedin.com/in/ronrustemi"
     },
     workExperience: [
         {

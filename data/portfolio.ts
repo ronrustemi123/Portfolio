@@ -10,6 +10,7 @@ export const portfolioData: PortfolioData = {
   },
   contact: {
     github: "https://github.com/ronrustemi123",
+    linkedin: "https://www.linkedin.com/in/ronrustemi",
   },
   workExperience: [
     {
