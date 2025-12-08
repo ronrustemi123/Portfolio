@@ -7,13 +7,13 @@ const skillLogoMap: Record<string, string> = {
   "Next.js": "/nextjs-original.svg",
   "React.js": "/react-original.svg",
   "TypeScript": "/typescript-original.svg",
-  "JavaScript": "/javascript-original.svg",
   "Tailwind CSS": "/tailwindcss-original.svg",
   "Node.js": "/nodejs-original.svg",
+  "Docker": "/docker-original.svg",
+  "AWS": "/aws-original.svg",
   "Express.js": "/express-original.svg",
   "PostgreSQL": "/postgresql-original.svg",
   "MongoDB": "/mongodb-original.svg",
-  "Git": "/git-original.svg",
 };
 
 export function TechnicalSkillsSection() {

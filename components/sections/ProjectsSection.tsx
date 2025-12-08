@@ -6,16 +6,17 @@ import { Button } from "@/components/ui/button";
 
 // Map technology names to their logo file names
 const techLogoMap: Record<string, string> = {
-  "JavaScript": "/javascript-original.svg",
+  "Docker": "/docker-original.svg",
+  "AWS": "/aws-original.svg",
   "React": "/react-original.svg",
   "TypeScript": "/typescript-original.svg",
+  "JavaScript": "/javascript-original.svg",
   "Next.js": "/nextjs-original.svg",
   "Tailwind CSS": "/tailwindcss-original.svg",
   "Node.js": "/nodejs-original.svg",
   "Express.js": "/express-original.svg",
   "PostgreSQL": "/postgresql-original.svg",
   "MongoDB": "/mongodb-original.svg",
-  "Git": "/git-original.svg",
 };
 
 export function ProjectsSection() {

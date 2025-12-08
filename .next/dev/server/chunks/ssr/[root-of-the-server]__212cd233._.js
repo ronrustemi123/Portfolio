@@ -80,43 +80,39 @@ const portfolioData = {
     ],
     projects: [
         {
-            title: "DailyDraft",
-            description: "A full-stack auto-generated blog application that continuously publishes fresh AI-generated articles. The frontend is built with React, and the backend uses Node.js + Express with a daily article generator powered by an AI text API. All services are fully containerized using Docker and deployed on AWS with an automated CI/CD pipeline using CodeBuild, ECR, and EC2.",
+            title: "E-commerce",
+            description: "Built an eCommerce website enabling users to browse and purchase products through an interactive interface. Developed using React JS, Material UI, and CSS to create a responsive and visually appealing shopping experience.",
             technologies: [
+                {
+                    name: "CSS3",
+                    color: "blue"
+                },
+                {
+                    name: "JavaScript",
+                    color: "yellow"
+                },
+                {
+                    name: "Material-UI",
+                    color: "blue"
+                },
                 {
                     name: "React",
                     color: "blue"
                 },
                 {
-                    name: "TypeScript",
-                    color: "blue"
-                },
-                {
-                    name: "Tailwind CSS",
-                    color: "blue"
-                },
-                {
-                    name: "Node.js",
-                    color: "green"
-                },
-                {
-                    name: "Docker",
-                    color: "blue"
-                },
-                {
-                    name: "AWS",
-                    color: "orange"
+                    name: "Vite",
+                    color: "purple"
                 }
             ],
             links: [
                 {
                     type: "github",
-                    url: "https://github.com/ronrustemi123/Technical-Test-Assimetria",
+                    url: "https://github.com/ronrustemi123/eCommerce",
                     label: "GitHub"
                 },
                 {
                     type: "demo",
-                    url: "http://16.171.253.245/",
+                    url: "https://simple-ecommerce-pi.vercel.app/",
                     label: "Live Demo"
                 }
             ]
@@ -159,6 +155,9 @@ const portfolioData = {
             name: "TypeScript"
         },
         {
+            name: "JavaScript"
+        },
+        {
             name: "Tailwind CSS"
         },
         {
@@ -168,16 +167,13 @@ const portfolioData = {
             name: "Express.js"
         },
         {
-            name: "Docker"
-        },
-        {
-            name: "AWS"
-        },
-        {
             name: "PostgreSQL"
         },
         {
             name: "MongoDB"
+        },
+        {
+            name: "Git"
         }
     ]
 };
@@ -608,6 +604,226 @@ function EducationItem({ edu, index }) {
     }, this);
 }
 }),
+"[project]/Desktop/Portfolio/lib/utils.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "cn",
+    ()=>cn
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/node_modules/clsx/dist/clsx.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$tailwind$2d$merge$2f$dist$2f$bundle$2d$mjs$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/node_modules/tailwind-merge/dist/bundle-mjs.mjs [app-ssr] (ecmascript)");
+;
+;
+function cn(...inputs) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$tailwind$2d$merge$2f$dist$2f$bundle$2d$mjs$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["twMerge"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["clsx"])(inputs));
+}
+}),
+"[project]/Desktop/Portfolio/components/ui/sticky-scroll-reveal.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "StickyScroll",
+    ()=>StickyScroll
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$motion$2d$value$2d$event$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/node_modules/framer-motion/dist/es/utils/use-motion-value-event.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/node_modules/framer-motion/dist/es/value/use-scroll.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/lib/utils.ts [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+const StickyScroll = ({ content, contentClassName })=>{
+    const [activeCard, setActiveCard] = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].useState(0);
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const { scrollYProgress } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useScroll"])({
+        // uncomment line 22 and comment line 23 if you DONT want the overflow container and want to have it change on the entire page scroll
+        // target: ref
+        container: ref,
+        offset: [
+            "start start",
+            "end start"
+        ]
+    });
+    const cardLength = content.length;
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$motion$2d$value$2d$event$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMotionValueEvent"])(scrollYProgress, "change", (latest)=>{
+        const cardsBreakpoints = content.map((_, index)=>index / cardLength);
+        const closestBreakpointIndex = cardsBreakpoints.reduce((acc, breakpoint, index)=>{
+            const distance = Math.abs(latest - breakpoint);
+            if (distance < Math.abs(latest - cardsBreakpoints[acc])) {
+                return index;
+            }
+            return acc;
+        }, 0);
+        setActiveCard(closestBreakpointIndex);
+    });
+    const backgroundColors = [
+        "#0f172a",
+        "#000000",
+        "#171717"
+    ];
+    const linearGradients = [
+        "linear-gradient(to bottom right, #06b6d4, #10b981)",
+        "linear-gradient(to bottom right, #ec4899, #6366f1)",
+        "linear-gradient(to bottom right, #f97316, #eab308)"
+    ];
+    const [backgroundGradient, setBackgroundGradient] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(linearGradients[0]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        setBackgroundGradient(linearGradients[activeCard % linearGradients.length]);
+    }, [
+        activeCard
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+        animate: {
+            backgroundColor: backgroundColors[activeCard % backgroundColors.length]
+        },
+        className: "relative flex h-[30rem] justify-center space-x-10 overflow-y-auto rounded-md p-10",
+        ref: ref,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "div relative flex items-start px-4",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-2xl",
+                    children: [
+                        content.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "my-20",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
+                                        initial: {
+                                            opacity: 0
+                                        },
+                                        animate: {
+                                            opacity: activeCard === index ? 1 : 0.3
+                                        },
+                                        className: "text-2xl font-bold text-slate-100",
+                                        children: item.title
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/Portfolio/components/ui/sticky-scroll-reveal.tsx",
+                                        lineNumber: 74,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
+                                        initial: {
+                                            opacity: 0
+                                        },
+                                        animate: {
+                                            opacity: activeCard === index ? 1 : 0.3
+                                        },
+                                        className: "text-kg mt-10 max-w-sm text-slate-300",
+                                        children: item.description
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/Portfolio/components/ui/sticky-scroll-reveal.tsx",
+                                        lineNumber: 85,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, item.title + index, true, {
+                                fileName: "[project]/Desktop/Portfolio/components/ui/sticky-scroll-reveal.tsx",
+                                lineNumber: 73,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "h-40"
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/Portfolio/components/ui/sticky-scroll-reveal.tsx",
+                            lineNumber: 98,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Desktop/Portfolio/components/ui/sticky-scroll-reveal.tsx",
+                    lineNumber: 71,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/Desktop/Portfolio/components/ui/sticky-scroll-reveal.tsx",
+                lineNumber: 70,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                style: {
+                    background: backgroundGradient
+                },
+                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("sticky top-10 hidden h-60 w-80 overflow-hidden rounded-md bg-white lg:block", contentClassName),
+                children: content[activeCard].content ?? null
+            }, void 0, false, {
+                fileName: "[project]/Desktop/Portfolio/components/ui/sticky-scroll-reveal.tsx",
+                lineNumber: 101,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/Desktop/Portfolio/components/ui/sticky-scroll-reveal.tsx",
+        lineNumber: 63,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0));
+};
+}),
+"[project]/Desktop/Portfolio/components/ProjectsStickyScroll.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ProjectsStickyScroll",
+    ()=>ProjectsStickyScroll
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$ui$2f$sticky$2d$scroll$2d$reveal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/components/ui/sticky-scroll-reveal.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/node_modules/next/image.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$data$2f$portfolio$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Portfolio/data/portfolio.ts [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+function ProjectsStickyScroll() {
+    const content = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$data$2f$portfolio$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["portfolioData"].projects.map((project, index)=>{
+        // Determine image based on project index/title since we don't have image paths in the data yet
+        // Using the images we just copied
+        const imagePath = index === 0 ? "/ecommerce-project.png" : "/tokentrace-project.png";
+        return {
+            title: project.title,
+            description: project.description,
+            content: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "h-full w-full flex items-center justify-center bg-white",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                    src: imagePath,
+                    width: 300,
+                    height: 300,
+                    className: "h-full w-full object-cover",
+                    alt: `${project.title} demo`
+                }, void 0, false, {
+                    fileName: "[project]/Desktop/Portfolio/components/ProjectsStickyScroll.tsx",
+                    lineNumber: 18,
+                    columnNumber: 12
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/Desktop/Portfolio/components/ProjectsStickyScroll.tsx",
+                lineNumber: 17,
+                columnNumber: 9
+            }, this)
+        };
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "w-full",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Portfolio$2f$components$2f$ui$2f$sticky$2d$scroll$2d$reveal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["StickyScroll"], {
+            content: content
+        }, void 0, false, {
+            fileName: "[project]/Desktop/Portfolio/components/ProjectsStickyScroll.tsx",
+            lineNumber: 32,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/Desktop/Portfolio/components/ProjectsStickyScroll.tsx",
+        lineNumber: 31,
+        columnNumber: 5
+    }, this);
+}
+}),
 ];
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__da72a8fe._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__212cd233._.js.map

@@ -71,25 +71,26 @@ export const portfolioData: PortfolioData = {
   ],
   projects: [
     {
-      title: "E-commerce",
+      title: "DailyDraft",
       description:
-        "Built an eCommerce website enabling users to browse and purchase products through an interactive interface. Developed using React JS, Material UI, and CSS to create a responsive and visually appealing shopping experience.",
+        "A full-stack auto-generated blog application that continuously publishes fresh AI-generated articles. The frontend is built with React, and the backend uses Node.js + Express with a daily article generator powered by an AI text API. All services are fully containerized using Docker and deployed on AWS with an automated CI/CD pipeline using CodeBuild, ECR, and EC2.",
       technologies: [
-        { name: "CSS3", color: "blue" },
-        { name: "JavaScript", color: "yellow" },
-        { name: "Material-UI", color: "blue" },
         { name: "React", color: "blue" },
-        { name: "Vite", color: "purple" },
+        { name: "TypeScript", color: "blue" },
+        { name: "Tailwind CSS", color: "blue" },
+        { name: "Node.js", color: "green" },
+        { name: "Docker", color: "blue" },
+        { name: "AWS", color: "orange" },
       ],
       links: [
         {
           type: "github",
-          url: "https://github.com/ronrustemi123/eCommerce",
+          url: "https://github.com/ronrustemi123/Technical-Test-Assimetria",
           label: "GitHub",
         },
         {
           type: "demo",
-          url: "https://simple-ecommerce-pi.vercel.app/",
+          url: "http://16.171.253.245/",
           label: "Live Demo",
         },
       ],
@@ -120,13 +121,13 @@ export const portfolioData: PortfolioData = {
     { name: "Next.js" },
     { name: "React.js" },
     { name: "TypeScript" },
-    { name: "JavaScript" },
     { name: "Tailwind CSS" },
     { name: "Node.js" },
     { name: "Express.js" },
+    { name: "Docker" },
+    { name: "AWS" },
     { name: "PostgreSQL" },
     { name: "MongoDB" },
-    { name: "Git" },
   ],
 };
 
