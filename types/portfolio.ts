@@ -34,7 +34,7 @@ export interface ProjectLink {
 export interface TechnologyBadge {
   name: string;
   icon?: string;
-  color?: "blue" | "yellow" | "purple";
+  color?: "blue" | "yellow" | "purple" | "green" | "orange";
 }
 
 export interface Project {
