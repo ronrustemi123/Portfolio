@@ -116,27 +116,31 @@ const portfolioData = {
             ]
         },
         {
-            title: "Token Trace",
-            description: "A cryptocurrency tracking platform inspired by Binance, built with React and Material UI. Features real-time price tracking, market data visualization, and interactive charts powered by the CoinGecko API. Enables users to monitor cryptocurrency prices, view market trends, and track their favorite digital assets.",
+            title: "VibeStrings",
+            description: "A 3-page guitar shop application built with Next.js 15 and Apollo Client, fetching data from a GraphQL API. This project demonstrates GraphQL integration, filtering, pagination, and UI best practices.",
             technologies: [
                 {
-                    name: "JavaScript",
+                    name: "Next.js",
                     color: "yellow"
                 },
                 {
-                    name: "React",
+                    name: "TypeScript",
+                    color: "blue"
+                },
+                {
+                    name: "Tailwind CSS",
                     color: "blue"
                 }
             ],
             links: [
                 {
                     type: "github",
-                    url: "https://github.com/ronrustemi123/TokenTrace",
+                    url: "https://github.com/ronrustemi123/VibeStrings",
                     label: "GitHub"
                 },
                 {
                     type: "demo",
-                    url: "https://token-trace.vercel.app/",
+                    url: "https://vibe-strings.vercel.app/",
                     label: "Live Demo"
                 }
             ]
