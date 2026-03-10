@@ -13,6 +13,26 @@ export const portfolioData: PortfolioData = {
   },
   workExperience: [
     {
+      company: "Blinkr",
+      role: "Founder & Full-Stack Developer",
+      startDate: "Dec 2025",
+      endDate: "Present",
+      location: "Tetovo, North Macedonia",
+      description:
+      "Founded and developed a peer-to-peer CS2 skill competition platform from concept to production, serving 50+ active users with 150+ matches completed. Built full-stack application with real-time lobby system (SSE), cryptocurrency payment integration (NOWPayments), automated server provisioning (DatHost API), and PostgreSQL-backed session management, deployed on Fly.io and Vercel.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Shadcn",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Docker"
+      ],
+      logo: "/blinkr.svg", // Add your logo
+    },
+    {
       company: "Local Act",
       role: "Frontend Developer",
       startDate: "Mar 2025",
@@ -29,7 +49,7 @@ export const portfolioData: PortfolioData = {
       endDate: "Mar 2025",
       location: "Skopje",
       description:
-        "Developed the front end of a full-stack management system for driving schools using React and Vite. Built responsive UI components, implemented data integration with backend APIs, and optimized performance for smooth scheduling, student tracking, and instructor management experiences.",
+      "Developed the front end of a full-stack management system for driving schools using React and Vite. Built responsive UI components, implemented data integration with backend APIs, and optimized performance for smooth scheduling, student tracking, and instructor management experiences.",
       technologies: [
         "React",
         "Vite",
@@ -69,6 +89,27 @@ export const portfolioData: PortfolioData = {
     },
   ],
   projects: [
+    {
+      title: "Blinkr",
+      description:
+      "Peer-to-peer CS2 skill competition platform with crypto stakes. Built real-time lobby system (SSE), payment integration (NOWPayments), automated server provisioning (DatHost), and PostgreSQL wallet system with transaction locking. Deployed on Fly.io and Vercel serving 200+ users with $15k+ in competed stakes.",
+      technologies: [
+        { name: "React", color: "blue" },
+        { name: "TypeScript", color: "blue" },
+        { name: "Tailwind CSS", color: "blue" },
+        { name: "Node.js", color: "green" },
+        { name: "Express.js", color: "green" },
+        { name: "PostgreSQL", color: "blue" },
+        { name: "Docker", color: "blue" },
+      ],
+      links: [
+        {
+          type: "demo",
+          url: "https://playblinkr.com",
+          label: "Live Platform",
+        },
+      ]
+    },
     {
       title: "DailyDraft",
       description:

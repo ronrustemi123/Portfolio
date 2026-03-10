@@ -1,2 +1,33 @@
-[00:00:01.972] Server  LOG      ✓ Ready in 1547ms
-[00:00:06.072] Server  LOG      ○ Compiling / ...
+[00:00:02.228] Server  LOG      ✓ Ready in 1613ms
+[00:01:29.106] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/blinkr-logo.png" "received" null
+[00:03:19.009] Server  LOG      ✓ Compiled in 13ms
+[00:03:19.491] Browser ERROR   ./data/portfolio.ts:28:9
+Parsing ecmascript source code failed
+  26 |         "Tailwind CSS",
+  27 |         "Shadcn"
+> 28 |         "Node.js",
+     |         ^^^^^^^^^
+  29 |         "Express.js",
+  30 |         "PostgreSQL",
+  31 |         "Docker"
+
+Expected ',', got 'string literal (Node.js, "Node.js")'
+
+Import traces:
+  Server Component:
+    ./data/portfolio.ts
+    ./components/sections/TechnicalSkillsSection.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./data/portfolio.ts [Client Component Browser]
+    ./components/sections/EducationSection.tsx [Client Component Browser]
+    ./components/sections/EducationSection.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/portfolio.ts [Client Component SSR]
+    ./components/sections/EducationSection.tsx [Client Component SSR]
+    ./components/sections/EducationSection.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:10:07.025] Server  LOG      ✓ Compiled in 40ms

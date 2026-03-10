@@ -60,7 +60,7 @@ function WorkExperienceItem({ experience, index }: { experience: typeof portfoli
               <h3 className="mb-1 text-xl font-bold text-foreground md:text-2xl">
                 {experience.company}
               </h3>
-              <p className="mb-3 text-base text-muted text-foreground">
+              <p className="mb-3 text-base text-muted font-medium text-foreground">
                 {experience.role}
               </p>
               <p className="text-base leading-relaxed" style={{ color: '#737373' }}>
