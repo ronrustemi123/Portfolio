@@ -92,7 +92,7 @@ export const portfolioData: PortfolioData = {
     {
       title: "Blinkr",
       description:
-      "Peer-to-peer CS2 skill competition platform with crypto stakes. Built real-time lobby system (SSE), payment integration (NOWPayments), automated server provisioning (DatHost), and PostgreSQL wallet system with transaction locking. Deployed on Fly.io and Vercel serving 200+ users with $15k+ in competed stakes.",
+      "Peer-to-peer CS2 skill competition platform with crypto stakes. Built real-time lobby system (SSE), payment integration (NOWPayments), automated server provisioning (DatHost), and PostgreSQL wallet system with transaction locking. Deployed on Fly.io and Vercel serving 50+ users.",
       technologies: [
         { name: "React", color: "blue" },
         { name: "TypeScript", color: "blue" },
