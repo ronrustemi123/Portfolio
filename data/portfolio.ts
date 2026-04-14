@@ -13,6 +13,23 @@ export const portfolioData: PortfolioData = {
   },
   workExperience: [
     {
+      company: "Longrun",
+      role: "Full-Stack Developer Internship",
+      startDate: "Apr 2026",
+      endDate: "Present",
+      location: "Düsseldorf, Germany • Remote",
+      description:
+      "Building and shipping features for a productivity app helping young men reduce screen time and pursue meaningful goals. Working directly with the founder and designer to implement Figma designs into a React web app, integrate Claude API for AI-driven goal setting and coaching, and optimize a Supabase database for user and content data. Iterating on features based on real user feedback and interviews.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "Stripe"
+      ],
+      logo: "/longrun.png", // Add your logo
+    },
+    {
       company: "Blinkr",
       role: "Founder & Full-Stack Developer",
       startDate: "Dec 2025",
