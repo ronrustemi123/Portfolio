@@ -91,7 +91,7 @@ __turbopack_context__.s([
 const portfolioData = {
     personal: {
         name: "Ron Rustemi",
-        title: "Computer Science Student",
+        title: "Full-Stack Developer",
         location: "Tetovo, North Macedonia",
         about: "Full-stack developer based in Tetovo, North Macedonia and Computer Science student at South East European University. I build modern, scalable web applications using React, Next.js, TypeScript, and Node.js. Experienced with SQL and NoSQL databases, I focus on creating performant, responsive interfaces and delivering end-to-end solutions."
     },
@@ -165,7 +165,7 @@ const portfolioData = {
     education: [
         {
             institution: "South East European University",
-            degree: "Bachelor of Computer Science",
+            degree: "Bachelor of Science in Computer Sciences",
             startDate: "Sep 2025",
             endDate: "May 2029",
             location: "Tetovo, North Macedonia",
@@ -227,6 +227,52 @@ const portfolioData = {
                 {
                     type: "demo",
                     url: "https://playblinkr.com",
+                    label: "Live Platform"
+                }
+            ]
+        },
+        {
+            title: "ez-uslugi.mk",
+            description: "AI civic chatbot for North Macedonia. Scraped and vectorized the entire national services portal, then built a RAG pipeline so citizens can ask in plain language what documents they need and where to go.",
+            technologies: [
+                {
+                    name: "React",
+                    color: "blue"
+                },
+                {
+                    name: "TypeScript",
+                    color: "blue"
+                },
+                {
+                    name: "Tailwind CSS",
+                    color: "blue"
+                },
+                {
+                    name: "Node.js",
+                    color: "green"
+                },
+                {
+                    name: "Express.js",
+                    color: "green"
+                },
+                {
+                    name: "Python",
+                    color: "blue"
+                },
+                {
+                    name: "PostgreSQL",
+                    color: "blue"
+                }
+            ],
+            links: [
+                {
+                    type: "github",
+                    url: "https://github.com/ronrustemi123/ez-uslugi",
+                    label: "GitHub"
+                },
+                {
+                    type: "demo",
+                    url: "https://ez-uslugi.vercel.app",
                     label: "Live Platform"
                 }
             ]
@@ -324,6 +370,9 @@ const portfolioData = {
             name: "Express.js"
         },
         {
+            name: "Python"
+        },
+        {
             name: "Docker"
         },
         {
@@ -331,9 +380,6 @@ const portfolioData = {
         },
         {
             name: "PostgreSQL"
-        },
-        {
-            name: "MongoDB"
         }
     ]
 };
@@ -691,17 +737,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2
 ;
 // Map technology names to their logo file names
 const techLogoMap = {
-    "Docker": "/docker-original.svg",
-    "AWS": "/aws-original.svg",
-    "React": "/react-original.svg",
-    "TypeScript": "/typescript-original.svg",
-    "JavaScript": "/javascript-original.svg",
+    Docker: "/docker-original.svg",
+    AWS: "/aws-original.svg",
+    React: "/react-original.svg",
+    TypeScript: "/typescript-original.svg",
+    JavaScript: "/javascript-original.svg",
     "Next.js": "/nextjs-original.svg",
     "Tailwind CSS": "/tailwindcss-original.svg",
     "Node.js": "/nodejs-original.svg",
     "Express.js": "/express-original.svg",
-    "PostgreSQL": "/postgresql-original.svg",
-    "MongoDB": "/mongodb-original.svg"
+    PostgreSQL: "/postgresql-original.svg",
+    MongoDB: "/mongodb-original.svg",
+    Python: "/python.svg"
 };
 function ProjectsSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -712,7 +759,7 @@ function ProjectsSection() {
                 children: "Projects"
             }, void 0, false, {
                 fileName: "[project]/components/sections/ProjectsSection.tsx",
-                lineNumber: 25,
+                lineNumber: 32,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -726,12 +773,12 @@ function ProjectsSection() {
                                     children: project.title
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 42,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                lineNumber: 31,
+                                lineNumber: 41,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -739,12 +786,12 @@ function ProjectsSection() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "mb-4 text-base leading-relaxed",
                                         style: {
-                                            color: '#737373'
+                                            color: "#737373"
                                         },
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                        lineNumber: 37,
+                                        lineNumber: 47,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -762,24 +809,24 @@ function ProjectsSection() {
                                                     loading: "lazy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 63,
                                                     columnNumber: 25
                                                 }, this)
                                             }, techIndex, false, {
                                                 fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                                lineNumber: 46,
+                                                lineNumber: 59,
                                                 columnNumber: 23
                                             }, this);
                                         })
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                        lineNumber: 40,
+                                        lineNumber: 53,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                lineNumber: 36,
+                                lineNumber: 46,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardFooter"], {
@@ -796,47 +843,47 @@ function ProjectsSection() {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                                    lineNumber: 72,
+                                                    lineNumber: 81,
                                                     columnNumber: 23
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 83,
                                                     columnNumber: 23
                                                 }, this),
                                                 link.label
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                            lineNumber: 66,
+                                            lineNumber: 79,
                                             columnNumber: 19
                                         }, this)
                                     }, linkIndex, false, {
                                         fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 78,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/ProjectsSection.tsx",
-                                lineNumber: 63,
+                                lineNumber: 76,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/sections/ProjectsSection.tsx",
-                        lineNumber: 30,
+                        lineNumber: 37,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/sections/ProjectsSection.tsx",
-                lineNumber: 28,
+                lineNumber: 35,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/ProjectsSection.tsx",
-        lineNumber: 24,
+        lineNumber: 31,
         columnNumber: 5
     }, this);
 }
@@ -860,14 +907,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$
 const skillLogoMap = {
     "Next.js": "/nextjs-original.svg",
     "React.js": "/react-original.svg",
-    "TypeScript": "/typescript-original.svg",
+    TypeScript: "/typescript-original.svg",
     "Tailwind CSS": "/tailwindcss-original.svg",
     "Node.js": "/nodejs-original.svg",
-    "Docker": "/docker-original.svg",
-    "AWS": "/aws-original.svg",
+    Docker: "/docker-original.svg",
+    AWS: "/aws-original.svg",
     "Express.js": "/express-original.svg",
-    "PostgreSQL": "/postgresql-original.svg",
-    "MongoDB": "/mongodb-original.svg"
+    PostgreSQL: "/postgresql-original.svg",
+    MongoDB: "/mongodb-original.svg",
+    Python: "/python.svg"
 };
 function TechnicalSkillsSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -878,7 +926,7 @@ function TechnicalSkillsSection() {
                 children: "Technical Skills"
             }, void 0, false, {
                 fileName: "[project]/components/sections/TechnicalSkillsSection.tsx",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -899,12 +947,12 @@ function TechnicalSkillsSection() {
                                     loading: "lazy"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/TechnicalSkillsSection.tsx",
-                                    lineNumber: 35,
+                                    lineNumber: 36,
                                     columnNumber: 19
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/TechnicalSkillsSection.tsx",
-                                lineNumber: 34,
+                                lineNumber: 35,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -912,25 +960,25 @@ function TechnicalSkillsSection() {
                                 children: skill.name
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/TechnicalSkillsSection.tsx",
-                                lineNumber: 45,
+                                lineNumber: 46,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/sections/TechnicalSkillsSection.tsx",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/components/sections/TechnicalSkillsSection.tsx",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/TechnicalSkillsSection.tsx",
-        lineNumber: 21,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }

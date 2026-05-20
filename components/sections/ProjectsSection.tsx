@@ -1,22 +1,29 @@
 import { Github, ExternalLink } from "lucide-react";
 import Image from "next/image";
 import { portfolioData } from "@/data/portfolio";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 // Map technology names to their logo file names
 const techLogoMap: Record<string, string> = {
-  "Docker": "/docker-original.svg",
-  "AWS": "/aws-original.svg",
-  "React": "/react-original.svg",
-  "TypeScript": "/typescript-original.svg",
-  "JavaScript": "/javascript-original.svg",
+  Docker: "/docker-original.svg",
+  AWS: "/aws-original.svg",
+  React: "/react-original.svg",
+  TypeScript: "/typescript-original.svg",
+  JavaScript: "/javascript-original.svg",
   "Next.js": "/nextjs-original.svg",
   "Tailwind CSS": "/tailwindcss-original.svg",
   "Node.js": "/nodejs-original.svg",
   "Express.js": "/express-original.svg",
-  "PostgreSQL": "/postgresql-original.svg",
-  "MongoDB": "/mongodb-original.svg",
+  PostgreSQL: "/postgresql-original.svg",
+  MongoDB: "/mongodb-original.svg",
+  Python: "/python.svg",
 };
 
 export function ProjectsSection() {
@@ -27,14 +34,20 @@ export function ProjectsSection() {
       </h2>
       <div className="grid gap-6 md:grid-cols-2">
         {portfolioData.projects.map((project, index) => (
-          <Card key={index} className="bg-white flex flex-col shadow-sm max-w-[400px] min-h-[356px]">
+          <Card
+            key={index}
+            className="bg-white flex flex-col shadow-sm max-w-[400px] min-h-[356px]"
+          >
             <CardHeader>
               <CardTitle className="text-xl font-semibold text-foreground md:text-xl">
                 {project.title}
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="mb-4 text-base leading-relaxed" style={{ color: '#737373' }}>
+              <p
+                className="mb-4 text-base leading-relaxed"
+                style={{ color: "#737373" }}
+              >
                 {project.description}
               </p>
               <div className="flex flex-wrap gap-2">
@@ -63,11 +76,7 @@ export function ProjectsSection() {
             <CardFooter className="flex gap-3 mt-auto mb-2">
               {project.links.map((link, linkIndex) => (
                 <Button key={linkIndex} asChild className="mt-auto">
-                  <a
-                    href={link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={link.url} target="_blank" rel="noopener noreferrer">
                     {link.type === "github" ? (
                       <Github className="h-4 w-4" />
                     ) : (
@@ -84,4 +93,3 @@ export function ProjectsSection() {
     </section>
   );
 }
-

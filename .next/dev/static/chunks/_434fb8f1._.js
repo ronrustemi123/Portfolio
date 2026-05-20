@@ -9,7 +9,7 @@ __turbopack_context__.s([
 const portfolioData = {
     personal: {
         name: "Ron Rustemi",
-        title: "Computer Science Student",
+        title: "Full-Stack Developer",
         location: "Tetovo, North Macedonia",
         about: "Full-stack developer based in Tetovo, North Macedonia and Computer Science student at South East European University. I build modern, scalable web applications using React, Next.js, TypeScript, and Node.js. Experienced with SQL and NoSQL databases, I focus on creating performant, responsive interfaces and delivering end-to-end solutions."
     },
@@ -83,7 +83,7 @@ const portfolioData = {
     education: [
         {
             institution: "South East European University",
-            degree: "Bachelor of Computer Science",
+            degree: "Bachelor of Science in Computer Sciences",
             startDate: "Sep 2025",
             endDate: "May 2029",
             location: "Tetovo, North Macedonia",
@@ -145,6 +145,52 @@ const portfolioData = {
                 {
                     type: "demo",
                     url: "https://playblinkr.com",
+                    label: "Live Platform"
+                }
+            ]
+        },
+        {
+            title: "ez-uslugi.mk",
+            description: "AI civic chatbot for North Macedonia. Scraped and vectorized the entire national services portal, then built a RAG pipeline so citizens can ask in plain language what documents they need and where to go.",
+            technologies: [
+                {
+                    name: "React",
+                    color: "blue"
+                },
+                {
+                    name: "TypeScript",
+                    color: "blue"
+                },
+                {
+                    name: "Tailwind CSS",
+                    color: "blue"
+                },
+                {
+                    name: "Node.js",
+                    color: "green"
+                },
+                {
+                    name: "Express.js",
+                    color: "green"
+                },
+                {
+                    name: "Python",
+                    color: "blue"
+                },
+                {
+                    name: "PostgreSQL",
+                    color: "blue"
+                }
+            ],
+            links: [
+                {
+                    type: "github",
+                    url: "https://github.com/ronrustemi123/ez-uslugi",
+                    label: "GitHub"
+                },
+                {
+                    type: "demo",
+                    url: "https://ez-uslugi.vercel.app",
                     label: "Live Platform"
                 }
             ]
@@ -242,6 +288,9 @@ const portfolioData = {
             name: "Express.js"
         },
         {
+            name: "Python"
+        },
+        {
             name: "Docker"
         },
         {
@@ -249,9 +298,6 @@ const portfolioData = {
         },
         {
             name: "PostgreSQL"
-        },
-        {
-            name: "MongoDB"
         }
     ]
 };

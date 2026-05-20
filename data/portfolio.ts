@@ -3,9 +3,10 @@ import type { PortfolioData } from "@/types/portfolio";
 export const portfolioData: PortfolioData = {
   personal: {
     name: "Ron Rustemi",
-    title: "Computer Science Student",
+    title: "Full-Stack Developer",
     location: "Tetovo, North Macedonia",
-    about: "Full-stack developer based in Tetovo, North Macedonia and Computer Science student at South East European University. I build modern, scalable web applications using React, Next.js, TypeScript, and Node.js. Experienced with SQL and NoSQL databases, I focus on creating performant, responsive interfaces and delivering end-to-end solutions.",
+    about:
+      "Full-stack developer based in Tetovo, North Macedonia and Computer Science student at South East European University. I build modern, scalable web applications using React, Next.js, TypeScript, and Node.js. Experienced with SQL and NoSQL databases, I focus on creating performant, responsive interfaces and delivering end-to-end solutions.",
   },
   contact: {
     github: "https://github.com/ronrustemi123",
@@ -19,13 +20,13 @@ export const portfolioData: PortfolioData = {
       endDate: "Present",
       location: "Düsseldorf, Germany • Remote",
       description:
-      "Building and shipping features for a productivity app helping young men reduce screen time and pursue meaningful goals. Working directly with the founder and designer to implement Figma designs into a React web app, integrate Claude API for AI-driven goal setting and coaching, and optimize a Supabase database for user and content data. Iterating on features based on real user feedback and interviews.",
+        "Building and shipping features for a productivity app helping young men reduce screen time and pursue meaningful goals. Working directly with the founder and designer to implement Figma designs into a React web app, integrate Claude API for AI-driven goal setting and coaching, and optimize a Supabase database for user and content data. Iterating on features based on real user feedback and interviews.",
       technologies: [
         "React",
         "TypeScript",
         "Tailwind CSS",
         "Supabase",
-        "Stripe"
+        "Stripe",
       ],
       logo: "/longrun.png", // Add your logo
     },
@@ -36,7 +37,7 @@ export const portfolioData: PortfolioData = {
       endDate: "Present",
       location: "Tetovo, North Macedonia",
       description:
-      "Founded and developed a peer-to-peer CS2 skill competition platform from concept to production, serving 50+ active users with 150+ matches completed. Built full-stack application with real-time lobby system (SSE), cryptocurrency payment integration (NOWPayments), automated server provisioning (DatHost API), and PostgreSQL-backed session management, deployed on Fly.io and Vercel.",
+        "Founded and developed a peer-to-peer CS2 skill competition platform from concept to production, serving 50+ active users with 150+ matches completed. Built full-stack application with real-time lobby system (SSE), cryptocurrency payment integration (NOWPayments), automated server provisioning (DatHost API), and PostgreSQL-backed session management, deployed on Fly.io and Vercel.",
       technologies: [
         "React",
         "TypeScript",
@@ -45,7 +46,7 @@ export const portfolioData: PortfolioData = {
         "Node.js",
         "Express.js",
         "PostgreSQL",
-        "Docker"
+        "Docker",
       ],
       logo: "/blinkr.svg", // Add your logo
     },
@@ -66,7 +67,7 @@ export const portfolioData: PortfolioData = {
       endDate: "Mar 2025",
       location: "Skopje",
       description:
-      "Developed the front end of a full-stack management system for driving schools using React and Vite. Built responsive UI components, implemented data integration with backend APIs, and optimized performance for smooth scheduling, student tracking, and instructor management experiences.",
+        "Developed the front end of a full-stack management system for driving schools using React and Vite. Built responsive UI components, implemented data integration with backend APIs, and optimized performance for smooth scheduling, student tracking, and instructor management experiences.",
       technologies: [
         "React",
         "Vite",
@@ -81,7 +82,7 @@ export const portfolioData: PortfolioData = {
   education: [
     {
       institution: "South East European University",
-      degree: "Bachelor of Computer Science",
+      degree: "Bachelor of Science in Computer Sciences",
       startDate: "Sep 2025",
       endDate: "May 2029",
       location: "Tetovo, North Macedonia",
@@ -109,7 +110,7 @@ export const portfolioData: PortfolioData = {
     {
       title: "Blinkr",
       description:
-      "Peer-to-peer CS2 skill competition platform with crypto stakes. Built real-time lobby system (SSE), payment integration (NOWPayments), automated server provisioning (DatHost), and PostgreSQL wallet system with transaction locking. Deployed on Fly.io and Vercel serving 50+ users.",
+        "Peer-to-peer CS2 skill competition platform with crypto stakes. Built real-time lobby system (SSE), payment integration (NOWPayments), automated server provisioning (DatHost), and PostgreSQL wallet system with transaction locking. Deployed on Fly.io and Vercel serving 50+ users.",
       technologies: [
         { name: "React", color: "blue" },
         { name: "TypeScript", color: "blue" },
@@ -125,7 +126,33 @@ export const portfolioData: PortfolioData = {
           url: "https://playblinkr.com",
           label: "Live Platform",
         },
-      ]
+      ],
+    },
+    {
+      title: "ez-uslugi.mk",
+      description:
+        "AI civic chatbot for North Macedonia. Scraped and vectorized the entire national services portal, then built a RAG pipeline so citizens can ask in plain language what documents they need and where to go.",
+      technologies: [
+        { name: "React", color: "blue" },
+        { name: "TypeScript", color: "blue" },
+        { name: "Tailwind CSS", color: "blue" },
+        { name: "Node.js", color: "green" },
+        { name: "Express.js", color: "green" },
+        { name: "Python", color: "blue" },
+        { name: "PostgreSQL", color: "blue" },
+      ],
+      links: [
+        {
+          type: "github",
+          url: "https://github.com/ronrustemi123/ez-uslugi",
+          label: "GitHub",
+        },
+        {
+          type: "demo",
+          url: "https://ez-uslugi.vercel.app",
+          label: "Live Platform",
+        },
+      ],
     },
     {
       title: "DailyDraft",
@@ -182,9 +209,9 @@ export const portfolioData: PortfolioData = {
     { name: "Tailwind CSS" },
     { name: "Node.js" },
     { name: "Express.js" },
+    { name: "Python" },
     { name: "Docker" },
     { name: "AWS" },
     { name: "PostgreSQL" },
-    { name: "MongoDB" },
   ],
 };

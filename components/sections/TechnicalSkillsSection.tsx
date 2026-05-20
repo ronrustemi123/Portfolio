@@ -6,14 +6,15 @@ import { Card } from "@/components/ui/card";
 const skillLogoMap: Record<string, string> = {
   "Next.js": "/nextjs-original.svg",
   "React.js": "/react-original.svg",
-  "TypeScript": "/typescript-original.svg",
+  TypeScript: "/typescript-original.svg",
   "Tailwind CSS": "/tailwindcss-original.svg",
   "Node.js": "/nodejs-original.svg",
-  "Docker": "/docker-original.svg",
-  "AWS": "/aws-original.svg",
+  Docker: "/docker-original.svg",
+  AWS: "/aws-original.svg",
   "Express.js": "/express-original.svg",
-  "PostgreSQL": "/postgresql-original.svg",
-  "MongoDB": "/mongodb-original.svg",
+  PostgreSQL: "/postgresql-original.svg",
+  MongoDB: "/mongodb-original.svg",
+  Python: "/python.svg",
 };
 
 export function TechnicalSkillsSection() {
@@ -52,4 +53,3 @@ export function TechnicalSkillsSection() {
     </section>
   );
 }
-
