@@ -154,53 +154,6 @@ export const portfolioData: PortfolioData = {
         },
       ],
     },
-    {
-      title: "DailyDraft",
-      description:
-        "A full-stack auto-generated blog application that continuously publishes fresh AI-generated articles. The frontend is built with React, and the backend uses Node.js + Express with a daily article generator powered by an AI text API. All services are fully containerized using Docker and deployed on AWS with an automated CI/CD pipeline using CodeBuild, ECR, and EC2.",
-      technologies: [
-        { name: "React", color: "blue" },
-        { name: "TypeScript", color: "blue" },
-        { name: "Tailwind CSS", color: "blue" },
-        { name: "Node.js", color: "green" },
-        { name: "Docker", color: "blue" },
-        { name: "AWS", color: "orange" },
-      ],
-      links: [
-        {
-          type: "github",
-          url: "https://github.com/ronrustemi123/Technical-Test-Assimetria",
-          label: "GitHub",
-        },
-        {
-          type: "demo",
-          url: "http://16.171.253.245/",
-          label: "Live Demo",
-        },
-      ],
-    },
-    {
-      title: "VibeStrings",
-      description:
-        "A 3-page guitar shop application built with Next.js 15 and Apollo Client, fetching data from a GraphQL API. This project demonstrates GraphQL integration, filtering, pagination, and UI best practices.",
-      technologies: [
-        { name: "Next.js", color: "yellow" },
-        { name: "TypeScript", color: "blue" },
-        { name: "Tailwind CSS", color: "blue" },
-      ],
-      links: [
-        {
-          type: "github",
-          url: "https://github.com/ronrustemi123/VibeStrings",
-          label: "GitHub",
-        },
-        {
-          type: "demo",
-          url: "https://vibe-strings.vercel.app/",
-          label: "Live Demo",
-        },
-      ],
-    },
   ],
   technicalSkills: [
     { name: "Next.js" },
